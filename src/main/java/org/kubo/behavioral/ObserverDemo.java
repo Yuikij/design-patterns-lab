@@ -2,7 +2,7 @@ package org.kubo.behavioral;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// 观察者模式
 public class ObserverDemo {
 
     // 观察者接口

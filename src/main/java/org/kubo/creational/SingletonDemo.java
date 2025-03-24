@@ -1,13 +1,13 @@
 package org.kubo.creational;
 // 单例模式
-public class Singleton {
-    private static volatile Singleton instance;
+public class SingletonDemo {
+    private static volatile SingletonDemo instance;
 
-    public static Singleton getInstance() {
+    public static SingletonDemo getInstance() {
         if (instance == null) {
-            synchronized (Singleton.class) {
+            synchronized (SingletonDemo.class) {
                 if (instance == null) {
-                    instance = new Singleton();
+                    instance = new SingletonDemo();
                 }
             }
         }
